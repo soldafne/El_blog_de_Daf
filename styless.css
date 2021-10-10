@@ -286,18 +286,23 @@ hr{
   }
 
   .container{
+  max-width: 900px;
+  height: 100%;
+  margin: auto;
   display: flex;
   height: inherit;
   background-color: #212121;
   opacity: 0.75;
-  max-width: 900px;
+
 
   }
   .content{
     outline:1px solid --color-oscuro;
     flex: 1;
      color:var(--color-content) ;
-
+     max-width: 900px;
+    height: 100%;
+    margin: auto;
   }
   .footer{
     position: relative;
