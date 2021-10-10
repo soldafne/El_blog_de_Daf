@@ -298,6 +298,7 @@ hr{
     outline:1px solid --color-oscuro;
     flex: 1;
      color:var(--color-content) ;
+     margin: auto;
   }
   .footer{
     position: relative;
