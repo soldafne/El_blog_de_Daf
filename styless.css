@@ -137,7 +137,7 @@ h2{
   margin-block-start: 41px;
 }
 img{
-width: 300px;
+max-inline-size: 300px;
 height: 350px;
 object-fit: cover;
 float: right;
@@ -147,7 +147,7 @@ hr{
   margin-block-start: 36px;
 }
 .item{
-  width: 640px;
+  max-inline-size: 640px;
   height: 150px;
   margin: 30px auto;
   padding-top: 15px;
@@ -159,7 +159,7 @@ hr{
   border-radius: 35px;
 }
 .item-1{
-  width: 640px;
+  max-inline-size: 640px;
   height: 230px;
   margin: 40px auto;
   padding-top: 15px;
@@ -172,7 +172,7 @@ hr{
 
 }
 .item-2{
-  max-width: 940px;
+  max-inline-size: 940px;
   height: 250px;
   margin: 50px auto;
   padding-top: 15px;
@@ -184,7 +184,7 @@ hr{
   border-radius: 15px;
 }
 .item-3{
-  width: 640px;
+  max-inline-size: 640px;
   height: 200px;
   margin: 50px auto;
   padding-top: 15px;
@@ -196,7 +196,7 @@ hr{
   border-radius: 25px;
 }
 .item-4{
-  width: 640px;
+  max-inline-size: 640px;
   height: 200px;
   margin: 50px auto;
   padding-top: 15px;
