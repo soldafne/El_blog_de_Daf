@@ -297,7 +297,7 @@ hr{
     outline:1px solid --color-oscuro;
     flex: 1;
      color:var(--color-content) ;
-     max-inline-size: 900px;
+     /* max-inline-size: 900px; */
   }
   .footer{
     position: relative;
@@ -343,7 +343,7 @@ hr{
 
   }
   .container{
-    width: 900px;
+    max-width: 900px;
     height: 670px;
     margin: auto;
     text-align:left;
