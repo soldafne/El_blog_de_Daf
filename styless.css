@@ -18,7 +18,7 @@ color: var(--color-menu);
 }
 .body{
   display: flex;
-  max-width: 100%;
+  max-inline-size:640px;
   height: 100%;
   object-fit: cover;
   background-size: cover;
@@ -58,13 +58,13 @@ opacity: 0.75;
 }
 .footer-content{
   margin-block-start: 1470px;
-  width: 100%;
+  max-inline-size: 100%;
   height: 100%;
   margin-inline-start:-20px;
   text-align: center;
 }
 .Menu{
-  width: 660px;
+  max-inline-size: 660px;
   height: 90px;
   background:var(--color-content);
   border-radius: 10px;
@@ -83,7 +83,7 @@ font-family:var(--cursiva-titulo);
 
 
 .container{
-  width: 640px;
+  max-inline-size: 640px;
   height: 900px;
   margin: auto;
   text-align:left;
