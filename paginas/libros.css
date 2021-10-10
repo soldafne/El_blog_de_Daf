@@ -1,0 +1,220 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+:root{
+--color-content:#e6b3bc;
+--color-menu:white;
+--color-oscuro: #212121;
+--cursiva-titulo:'Dancing Script', cursive;
+--roboto:'Roboto', sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+main{
+  background-image: url(https://i.pinimg.com/564x/0b/45/00/0b45008f2efda6ee09f2bd97952a3b11.jpg);
+  background-attachment: fixed;
+  /* background-repeat: no-repeat; */
+  background-size:100%;
+  color:--color-content;
+  object-fit: cover;
+  width:360px;
+  height:100%;
+  position:relative;
+}
+/* bbbbb */
+summary{
+  color:var(--color-content);
+  font-size: 17px;
+  margin-block-start: 10px;
+}
+
+header details ul li a {
+    color:var(--color-content);
+    text-decoration:none;
+
+}
+ul li{
+  margin-block-start: 10px;
+}
+  header a:hover{
+    color:white;
+}
+  header{
+    font-size: 16px;
+    padding-inline: 10px;
+    padding-block: 10px;
+
+}
+.header-main{
+  padding-left: 17px;
+  padding-top: 10px;
+  /* position:sticky; */
+   /* inset-block-start: -45px; */
+   opacity: 0.75;
+}
+.header-content{
+    padding-inline:10px;
+    max-width: 330px;
+    height: 140px;
+    background: var(--color-oscuro);
+    border-radius: 10px;
+    /* position: relative; */
+    /* position: sticky; */
+    /* top: 0; */
+  }
+
+.wrapper{
+
+  max-inline-size: 636px;
+  margin: auto;
+  margin-block: -15px;
+
+}
+.content1{
+  margin-top: 50px;
+  background: var(--color-oscuro);
+  opacity: 0.9;
+  color:var(--color-content);
+  padding: 10px;
+  border-radius: 25px;
+  margin-inline: 12px;
+}
+h1{
+  font-family:var(--cursiva-titulo);
+  text-align: center;
+  margin-block: 40px;
+  font-size: 35px;
+  color: var(--color-content);
+}
+h4{
+  text-align: center;
+}
+h3{
+   font-family:var(--cursiva-titulo);
+   font-size: 22px;
+   text-align: center;
+   color:var(--color-content);
+}
+p{
+  font-family: var(--roboto);
+  margin-block: 16px;
+  font-size: 15.5px;
+}
+h3{
+  margin-block-start: 5px;
+  margin-block-end: 16px;
+}
+.content2{
+  background: var(--color-oscuro);
+  opacity: 0.9;
+  color:var(--color-content);
+  padding: 10px;
+  border-radius: 25px;
+  margin-top: 50px;
+  margin-inline: 12px;
+}
+.content0{
+   background: var(--color-oscuro);
+  opacity: 0.9;
+  color:var(--color-content);
+  padding: 10px;
+  border-radius: 25px;
+  margin-top: 40px;
+  text-align: center;
+  margin-inline: 12px;
+}
+.content0 img{
+ width: 100%;
+}
+
+@media screen and (min-width:1366px){
+  main{
+    background-image: url(https://i.pinimg.com/564x/0b/45/00/0b45008f2efda6ee09f2bd97952a3b11.jpg);
+    background-attachment: fixed;
+    /* background-repeat: no-repeat; */
+    background-size:50%;
+    color:--color-content;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position:relative;
+  }
+  summary{
+    color:var(--color-content);
+    font-size: 17px;
+    margin-block-start: 10px;
+  }
+
+  header details ul li a {
+      color:var(--color-content);
+      text-decoration:none;
+
+  }
+  ul li{
+    margin-block-start: 10px;
+  }
+    header a:hover{
+      color:white;
+  }
+    header{
+      font-size: 16px;
+      padding-inline: 10px;
+      padding-block: 10px;
+
+  }
+  .content0 img{
+   display: block;
+   margin: auto;
+  }
+  .header-main{
+    padding-left: 17px;
+    padding-top: 60px;
+    position:sticky;
+     inset-block-start: -45px;
+     opacity: 0.75;
+  }
+  .header-content{
+      padding-inline: 20px;
+      width: 170px;
+      height: 250px;
+      background: var(--color-oscuro);
+      border-radius: 10px;
+      position: relative;
+      position: sticky;
+      top: 0;
+    }
+  .wrapper{
+    margin: auto;
+    max-width: 900px;
+    margin-block: -300px;
+
+  }
+  .content2{
+    background: var(--color-oscuro);
+    opacity: 0.9;
+    color:var(--color-content);
+    padding: 30px;
+    border-radius: 25px;
+    margin-top: 50px;
+  }
+  .content1{
+    margin-top: 50px;
+    background: var(--color-oscuro);
+    opacity: 0.9;
+    color:var(--color-content);
+    padding: 30px;
+    border-radius: 25px;
+  }
+  .content0{
+     background: var(--color-oscuro);
+    opacity: 0.9;
+    color:var(--color-content);
+    padding: 30px;
+    border-radius: 25px;
+    margin-top: 50px;
+    text-align: center;
+  }
+}
