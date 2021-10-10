@@ -342,7 +342,7 @@ hr{
 
   }
   .container{
-    max-width: 900px;
+    width: 900px;
     height: 670px;
     margin: auto;
     text-align:left;
