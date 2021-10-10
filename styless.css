@@ -290,6 +290,7 @@ hr{
   height: inherit;
   background-color: #212121;
   opacity: 0.75;
+  width: 900px;
 
 
   }
@@ -342,7 +343,7 @@ hr{
 
   }
   .container{
-    width: 900px;
+    max-width: 900px;
     height: 670px;
     margin: auto;
     text-align:left;
