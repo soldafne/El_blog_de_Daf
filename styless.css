@@ -49,6 +49,7 @@ opacity: 0.75;
   outline:1px solid --color-oscuro;
   flex: 1;
    color:var(--color-content) ;
+   max-inline-size: 636px;
 }
 .footer{
   position: relative;
